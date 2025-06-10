@@ -1,0 +1,19 @@
+//class
+//object
+//abstraction
+//encapsulation
+//polymarphism
+//inheritance
+*single In
+*multilevel In
+*hierarchical In
+*hybride In
+**
+constructer
+Constructor Type	User-Defined?			When to Use
+Default				Yes					When you want to set fixed default values
+Parameterized		Yes					When you want to pass custom values while creating the object
+Copy				Yes (manual)		When you want to duplicate an object 
+functional interface 
+functional interface is a interface that contains  only one abstract method 
+lamda expreccion is implematin of functional inetr face																												

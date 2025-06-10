@@ -1,0 +1,5 @@
+collections   insert     delete    meargtwocoll     	searchng     gettingele  	get index po
+arraylist		add()	remove()	addAll()   			equals()		get()		indexOf()
+linkedlist  	add()	remove()	addAll()			equals()		get()		indexOf()
+hashset			add()	remove()	addAll()			equals()		get()			-
+hashmap			put()	remove()	putAll()			equals()		get()			-
