@@ -13,7 +13,7 @@ public class Chinning_con {
         this.name = name;
         this.price = price;
         System.out.println("Parameterized constructor called");
-    }
+    }   
 
     void display() {
         System.out.println(name + " - $" + price);
