@@ -13,7 +13,7 @@ public class MethodOverLoading {
 		
 		MethodOverLoading MO=new MethodOverLoading();
 		MO.m1();
-		MO.m1(5);
+		//MO.m1(5);
 	}
 
 }
