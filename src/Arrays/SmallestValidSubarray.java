@@ -26,15 +26,15 @@ public class SmallestValidSubarray {
         	  }
         	  start+=0;
         	  end+=1;
-        	  int[] window = Arrays.copyOfRange(arr, start, end + 1);
-         	 int windowsize=window.length;
-         	  Arrays.sort(window);
-         	  for(int i=0;i<windowsize;i++) {
-         		  if(window[i]==window[i+1] && window[i+1]==window[i+2] && window[i+2]==window[i+3]) {
+        	  int[] window1 = Arrays.copyOfRange(arr, start, end + 1);
+         	 int windowsize1=window1.length;
+         	  Arrays.sort(window1);
+         	  for(int i=0;i<windowsize1;i++) {
+         		  if(window1[i]==window1[i+1] && window1[i+1]==window1[i+2] && window1[i+2]==window1[i+3]) {
          			 count=3;
          			 
          			 //System.out.println(windowsize);
-         			 min = Math.min(min, windowsize);
+         			 min = Math.min(min, windowsize1);
          			  
          		  }
          	  }
