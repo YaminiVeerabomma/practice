@@ -17,7 +17,7 @@ public class DistinctDifferenceArray {
 				
 				
 			}
-			System.out.println( i +" "+"prefix "+prefix);
+			System.out.println( i + " " +"prefix "+prefix);
 		
 			Set<Integer> postfix=new HashSet<Integer>();
 	
@@ -25,7 +25,7 @@ public class DistinctDifferenceArray {
 				postfix.add(arr[j]);
 			
 			}
-			System.out.println(i+ "  "+"postfix "+postfix);
+			System.out.println(i+ "  " +"postfix "+postfix);
 			
 			
 			diff.add(prefix.size()-postfix.size());
